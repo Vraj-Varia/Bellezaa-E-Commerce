@@ -1,0 +1,70 @@
+.Products {
+  width: 100%;
+  overflow: hidden;
+  height: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  place-self: center;
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .CardContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 5px;
+  }
+}
+
+.divider {
+  width: 90%;
+  height: 0.2vh;
+  background: darkgrey;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    scale: 0.4;
+  }
+
+  to {
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .Products {
+    .CardContainer {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+}
+
+@media only screen and (max-width: 740px) {
+  .Products {
+    .CardContainer {
+      grid-template-columns: 1fr 1fr;
+      align-items: start;
+      img {
+        height: 20vh;
+        padding: 0;
+        margin: 0;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .Products {
+    .CardContainer {
+      grid-template-columns: 1fr;
+    }
+  }
+}

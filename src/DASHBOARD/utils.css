@@ -1,0 +1,102 @@
+
+.sideBar {
+  /* background: wheat; */
+  background: var(--primary-color-2);
+  /* color: white; */
+  /* background: darkblue; */
+  width: 15vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  left: 0;
+  .logo {
+    /* background: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    svg {
+      height: 40px;
+      path {
+        fill: black;
+      }
+    }
+  }
+  h3 {
+    font-size: 15px;
+    font-weight: 100;
+  }
+  li {
+    list-style: none;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    /* background: white; */
+    border-radius: 6px;
+    transition: all 300ms;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    svg {
+      margin-right: 10px;
+    }
+    &:hover {
+        cursor: pointer;
+        background: var(--primary-hover-color-2);
+    }
+  }
+  .menu,
+  .others {
+    margin: 10px;
+    /* background: red; */
+  }
+}
+
+
+
+.Topbar {
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 85vw;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.237);
+  box-shadow: 0 0 5px 0px black;
+  .searchBar {
+    display: flex;
+    /* background: rgba(255, 166, 0, 0.249); */
+    /* background: rgb(205, 193, 255); */
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    background: white;
+    margin: 10px;
+    border-radius: 12px;
+    input {
+      padding: 10px;
+      background: transparent;
+      border-radius: 12px;
+      border: none;
+      outline: none;
+      width: 30vw;
+      font-size: 15px;
+    }
+    svg {
+      padding: 10px;
+      cursor: pointer;
+    }
+  }
+  .rightSide {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 10vw;
+    p,
+    svg{
+      cursor: pointer;
+    }
+    p {
+      font-size: 18px;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.cartButton {
+  position: fixed;
+  right: 0;
+  bottom: 10vh;
+  button {
+    background: rgba(255, 255, 255, 0.501);
+    backdrop-filter: blur(20px);
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

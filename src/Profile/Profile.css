@@ -1,0 +1,79 @@
+.Profile {
+  .userSection {
+    display: flex;
+    width: 50vw;
+    place-self: center;
+    .profileImg {
+      background: white;
+      padding: 20px;
+      margin: 10px;
+      border-radius: 50%;
+    }
+    .profileName {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      justify-content: space-evenly;
+      h2 {
+        font-size: 40px;
+      }
+      button {
+        padding: 5px;
+        border: 0.5px solid black;
+        cursor: pointer;
+        border-radius: 10px;
+        transition: all 300ms;
+        &:hover {
+          background: wheat;
+        }
+      }
+    }
+  }
+  .DetailButton {
+    display: flex;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    button {
+      padding: 10px;
+      font-size: 20px;
+      margin: 10px;
+      border: 1px solid grey;
+      color: grey;
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 0 3px 0 grey;
+      transition: all 300ms;
+      &:hover {
+        background: wheat;
+        cursor: pointer;
+        color: black;
+      }
+    }
+  }
+  .detailsSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-between; */
+    h1 {
+      margin: 15px;
+    }
+    ul {
+      width: 90vw;
+      li {
+        list-style: none;
+        padding: 15px;
+        margin: 15px;
+        border-radius: 15px;
+        transition: all 300ms;
+        &:hover {
+          background: wheat;
+          cursor: pointer;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

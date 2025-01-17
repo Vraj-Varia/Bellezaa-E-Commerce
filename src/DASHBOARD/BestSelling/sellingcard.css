@@ -1,0 +1,35 @@
+.BestSelling {
+  font-family: sans-serif;
+  margin: 10px;
+  .heading {
+    margin: 10px;
+    font-size: 40px;
+  }
+  width: 40vw;
+  display: flex;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  border-right: 1px solid rgba(0, 0, 0, 0.5);
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  .card {
+    display: flex;
+    background: white;
+    width: 20vw;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    transition: all 300ms;
+    img {
+      height: 40px;
+      width: auto;
+    }
+    &:hover {
+      background: green;
+      color: white;
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,52 @@
+.itemsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .upperSection {
+    display: flex;
+    margin-top: 80px;
+    align-items: start;
+    justify-content: center;
+    .descriptionSection {
+      .mrp {
+        font-weight: 100;
+        font-size: 30px;
+        font-family: sans-serif;
+      }
+      .cartSection {
+        display: flex;
+        button {
+          margin: 10px;
+          padding: 10px;
+          font-size: 20px;
+          border: none;
+          outline: none;
+          border-radius: 20px;
+          transition: all 300ms;
+          cursor: pointer;
+          background: none;
+        }
+        .cartBtn {
+          background: rgba(255, 255, 0, 0.526);
+          &:hover {
+            background: yellow;
+          }
+        }
+        .buyBtn {
+          background: rgba(255, 166, 0, 0.544);
+          &:hover {
+            background: orange;
+          }
+        }
+      }
+    }
+  }
+  
+  .lowerSection {
+    .instructions {
+      margin: 20px;
+      padding: 20px;
+    }
+  }
+}

@@ -1,0 +1,9 @@
+.card {
+    height: max-content;
+    z-index: 0;
+
+    img {
+        height: 65vh;
+        margin: 0;
+    }
+}

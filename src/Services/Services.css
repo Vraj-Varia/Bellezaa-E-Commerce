@@ -1,0 +1,41 @@
+.ServicesContainer {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    place-self: center;
+    background: rgba(255, 182, 193, 0.184);
+    border-radius: 12px;
+
+    .left {
+        h1 {
+            color: black;
+            padding: 40px;
+        }
+    }
+
+    @media screen and (max-width: 1000px) {
+        flex-direction: column;
+        justify-content: center;
+        .right {
+            display: none;
+        }
+    }
+}
+
+
+.divider {
+    width: 90%;
+    height: 0.2vh;
+    background: darkgrey;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    place-self: center;
+}
+
+.separator {
+    background: black;
+    height: 90vh;
+    width: 0.1vw;
+}

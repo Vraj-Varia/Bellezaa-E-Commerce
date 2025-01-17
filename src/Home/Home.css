@@ -1,0 +1,108 @@
+.Home {
+  /* background: url('../assets/screenshot1.png'); */
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* display: flex;
+    flex-direction: column; */
+  height: max-content;
+  /* align-items: end; */
+  color: white;
+  /* justify-content: center; */
+
+  display: grid;
+  grid-auto-flow: column;
+  scroll-behavior: smooth;
+  gap: 1.2rem;
+  overflow-y: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  width: 90vw;
+  place-self: center;
+  margin-top: 10vh;
+
+  img {
+    height: 30vw;
+  }
+
+  .background-clip {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+  }
+
+  .text {
+    width: 50vh;
+    h1 {
+      font-size: 60px;
+    }
+    p {
+      font-size: 15px;
+    }
+  }
+  .button {
+    button {
+      padding: 10px;
+      color: white;
+      margin: 10px;
+      background: transparent;
+      border-radius: 12px;
+      font-size: 18px;
+      border: 1px solid white;
+      cursor: pointer;
+      transition: all 300ms;
+      &:hover {
+        background: rgba(255, 166, 255, 0.449);
+      }
+    }
+  }
+  .text,
+  .button {
+    margin-right: 150px;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .Home {
+    .text,
+    .button {
+      margin: 0;
+      color: black;
+    }
+  }
+}
+
+.image-slider {
+  width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.image-container img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.controls button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.controls button:hover {
+  background-color: #45a049;
+}
+
+.image-index p {
+  font-size: 14px;
+  color: #333;
+  margin-top: 10px;
+}

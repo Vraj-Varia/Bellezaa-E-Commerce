@@ -1,0 +1,13 @@
+.board {
+  display: flex;
+  background: var(--secondary-color);
+}
+
+:root {
+  --primary-color-2: white;
+  /* --primary-color-2: rgb(205, 193, 255); */
+  --primary-hover-color-2: green;
+  /* --primary-hover-color-2: rgb(163, 148, 249); */
+  --secondary-color: whitesmoke;
+  /* --secondary-color: rgb(246, 239, 255); */
+}

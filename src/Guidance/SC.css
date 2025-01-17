@@ -1,0 +1,30 @@
+.SmallCard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: whitesmoke; */
+    background: rgba(245, 222, 179, 0.482);
+    height: 130px;
+    width: 120px;
+    padding: 8px;
+    margin: 8px;
+    transition: all 400ms;
+    cursor: pointer;
+    border-radius: 12px;
+
+    .title {
+        font-size: 15px;
+        transition: all 400ms;
+        cursor: pointer;
+        font-family: sans-serif;
+    }
+
+    &:hover {
+        background: wheat;
+        transform: scale(1.1);
+
+        .title {
+            color: darkblue;
+        }
+    }
+}

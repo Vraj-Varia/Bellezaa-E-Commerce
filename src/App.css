@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+:root {
+    /* --primary-color: rgb(238, 241, 241); */
+    --primary-color: rgb(251, 246, 246);
+}
+
+body {
+    background: var(--primary-color);
+}
+
+.div {
+    animation: appear 5s linear;
+    animation-timeline: view();
+    animation-range: 0% cover 20%;
+}
+
+.divider {
+    place-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+}
+
+
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        scale: 0.4;
+    }
+
+    to {
+        opacity: 1;
+        scale: 1;
+    }
+}

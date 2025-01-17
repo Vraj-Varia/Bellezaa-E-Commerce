@@ -1,0 +1,112 @@
+.Footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /* background: rgba(0, 0, 0, 1); */
+  background: whitesmoke;
+  color: black;
+  height: 80vh;
+  .logoContainer {
+    margin: 20px;
+    svg {
+      height: 10vh;
+      path {
+        fill: black;
+      }
+    }
+  }
+  .footerContainer {
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    .left {
+      width: 50%;
+      margin: 20px;
+      h1 {
+        font-size: 50px;
+        font-weight: 500;
+      }
+      h4 {
+        font-size: 15px;
+        font-weight: 100;
+      }
+      .inputContainer {
+        /* background: orange; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 5px;
+        input {
+          width: 80%;
+          font-size: 14px;
+          padding: 20px;
+          border: 1px solid black;
+          outline: none;
+          font-family: sans-serif;
+          border-radius: 40px;
+          &:hover {
+            outline: auto;
+          }
+        }
+        button {
+          padding: 20px;
+          border: 1px solid black;
+          background: transparent;
+          border-radius: 40px;
+          &:hover {
+            text-decoration: underline;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+    .right {
+      display: flex;
+      width: 50%;
+      .socialMedia,
+      .About,
+      .TC {
+        margin: 20px;
+      }
+      li {
+        list-style: none;
+        margin: 5px;
+        &:hover {
+          text-decoration: underline;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+.divider {
+  width: 90%;
+  height: 0.2vh;
+  background: darkgrey;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .Footer {
+    width: 100vw;
+    .bottom {
+      width: 100vw;
+    }
+    .footerContainer {
+      height: max-content;
+      .About {
+        display: none;
+      }
+      .TC {
+        display: none;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1000px) {
+    .Footer {
+        width: 100vw;
+    }
+}
