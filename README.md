@@ -5,4 +5,6 @@
     in this particular directory
 
 # To connect login register backend with mongodb
-    run command => npm run start:login in src/server directory..
+    run command => 
+            npm run start:login 
+    in src/server directory..
