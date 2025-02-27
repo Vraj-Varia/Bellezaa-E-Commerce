@@ -1,10 +1,8 @@
 # Bellezaa-E-Commerce
 
-# To run main frontend, run command 
+# To run main frontend, run command in this particular directory
     npm run dev
-    in this particular directory
 
-# To connect login register backend with mongodb
-    run command => 
-            npm run start:login 
-    in src/server directory..
+# To connect login register backend with mongodb in src/server directory.. run command => 
+    npm run start:login 
+    
