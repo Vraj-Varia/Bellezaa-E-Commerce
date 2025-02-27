@@ -18,12 +18,12 @@
   overscroll-behavior-x: contain;
   scroll-snap-type: x mandatory;
   scrollbar-width: none;
-  width: 90vw;
+  width: 100%;
   place-self: center;
-  margin-top: 10vh;
+  /* margin-top: 10vh; */
 
   img {
-    height: 30vw;
+    height: 50vw;
   }
 
   .background-clip {

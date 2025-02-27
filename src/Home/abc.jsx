@@ -14,17 +14,17 @@ import Services from "../Services/Services";
 const ActualHome = () => {
   return (
     <div>
+      {/* <br/>
       <br/>
-      <br/>
-      <br/>
-      {/* <Home /> */}
+      <br/> */}
+      <Home />
       {/* <Services /> */}
-      <Products />
+      <Guidance />
+      {/* <Products /> */}
       <Add category="NEW" title="BUY PREMIUM NOW AND GET 20% OFF" msg="Shop the laser-sharp liquid eyeliner that delivers long-lasting, intense color payoff for all your holiday makeup moments." img={image}/>
       <Products />
       {/* <div className="divider"></div> */}
-      <Products />
-      <Guidance />
+      {/* <Products /> */}
       <Add category="HOLIDAY" title="HOLIDAY GIFT'S" msg="Shop the laser-sharp liquid eyeliner that delivers long-lasting, intense color payoff for all your holiday makeup moments." img={holiday}/>
       <Products />
 
