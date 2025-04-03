@@ -42,10 +42,11 @@ const Login = () => {
       </div>
       <div className="right">
         <h1>Login</h1>
-        <input type="email" name="email" id="LoginEmail" placeholder='Email' onChange={(e) => setEmail(e.target.value)} />
+        <input type="email" name="email" id="LoginEmail" placeholder='Email | Username | Contact' onChange={(e) => setEmail(e.target.value)} />
         <input type="password" name="password" id="psw" placeholder='Password'onChange={(e) => setPassword(e.target.value)} />
+        <p id="error_msg"></p>
         <p>Don't have an account? <Link to="/signup">Signup</Link></p>
-        <button onClick={handleSubmit} disabled={loading || !email || !password}>{loading? 'Logging in...' : 'Login'}</button>
+        <button onClick={handleSubmit} disabled={loading || !email || !password}>{loading? 'Logging in  →' : 'Login  →'}</button>
       </div>
     </div>
   )

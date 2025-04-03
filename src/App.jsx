@@ -3,7 +3,6 @@ import Support from "./Support/Support";
 import Login from "./Login/Login";
 import Signup from "./Login/Signup";
 import ActualHome from "./Home/abc";
-import Board from "./DASHBOARD/board";
 
 import { BrowserRouter, Route, Router, Routes } from "react-router-dom";
 import Items from "./Products/Items/Items";
@@ -13,6 +12,7 @@ import Footer from "./Footer/Footer";
 import Profile from "./Profile/Profile";
 import Chatbox from "./ChatBox/Chatbox";
 import { useEffect, useState } from "react";
+import Premium from "./Premium/Premium";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -51,7 +51,7 @@ function App() {
             <Route path="/Item" element={<Items />}></Route>
             <Route path="/Support" element={<Support />}></Route>
             <Route path="/cart" element={<Cart />}></Route>
-            <Route path="/dashboard" element={<Board />}></Route>
+            <Route path="/premium" element={<Premium />}></Route>
             <Route
               path="/profile"
               element={<Profile username="USER" />}

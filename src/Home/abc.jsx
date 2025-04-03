@@ -17,8 +17,9 @@ const ActualHome = () => {
       {/* <br/>
       <br/>
       <br/> */}
-      <Home />
-      {/* <Services /> */}
+      {/* <Home /> */}
+      {/* <Products /> */}
+      <Services />
       <Guidance />
       {/* <Products /> */}
       <Add category="NEW" title="BUY PREMIUM NOW AND GET 20% OFF" msg="Shop the laser-sharp liquid eyeliner that delivers long-lasting, intense color payoff for all your holiday makeup moments." img={image}/>

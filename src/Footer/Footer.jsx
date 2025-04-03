@@ -17,13 +17,11 @@ const Footer = () => {
                 </div>
                 <div className="footerContainer">
                     <div className="left">
-                        <h1>SIGN UP FOR NEWS</h1>
-                        <h4>Receive updates on new arrivals, special offers and other discounts.</h4>
+                        <h1>GIVE A FEEDBACK</h1>
                         <div className="inputContainer">
-                            <input type="email" name="email" id="footerEmail" placeholder='Email Address' />
-                            <button>SIGN UP</button>
+                            <textarea type="TEXT" name="TEXT" id="footerTEXT" placeholder='YOUR FEEDBACK' />
+                            <button>SUBMIT</button>
                         </div>
-                        <h4>By signing up via text, you agree to receive recurring automated promotional and personalized marketing text messages (e.g. cart reminders) from Anastasia Beverly Hills at the cell number used when signing up. Consent is not a condition of any purchase. Reply HELP for help and STOP to cancel. Msg frequency varies. Msg & data rates may apply. View Terms & Privacy.</h4>
                     </div>
                     <div className="right">
                         <div className="socialMedia">
@@ -35,31 +33,16 @@ const Footer = () => {
                         </div>
                         <div className="About">
                             <li>SEARCH PRODUCTS</li>
-                            <li>ABH INNER CIRCLE</li>
-                            <li>FIND A STORE</li>
-                            <li>SALON</li>
                             <li>GIFT CARDS</li>
-                            <li>CHECK YOUR BALANCE</li>
-                            <li>SUBSCRIPTIONS</li>
-                            <li>STUDENT & GRADUATE DISCOUNT</li>
-                            <li>CAREERS</li>
                             <li>CUSTOMER SERVICE</li>
-                            <li>SHIPPING AND RETURNS</li>
-                            <li>TRACK YOUR ORDERS</li>
-                            <li>MAKE A RETURN</li>
                         </div>
                         <div className="TC">
                             <li>TERMS AND CONDITIONS</li>
                             <li>LOYALTY TERMS AND CONDITIONS</li>
                             <li>PRIVACY POLICY</li>
-                            <li>CALIFORNIA NOTICE OF COLLECTION</li>
                             <li>MANNAGE COOKIE PREFERENCES</li>
                             <li>ACCESSIBILITY STATEMENT</li>
                             <li>COUNTERFEIT EDUCATION</li>
-                            <li>SUPPLY CHAIN ACT</li>
-                            <li>PROMOTIONAL DISCLAIMERS</li>
-                            <li>GIVEAWAY TERMS & CONDITIONS</li>
-                            <li><a href='/dashboard'>DASHBOARD</a></li>
                         </div>
                     </div>
                 </div>

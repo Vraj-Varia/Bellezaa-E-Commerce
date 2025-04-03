@@ -11,6 +11,8 @@ const Signup = () => {
   const [email, setEmail] = useState();
   const [password, setPassword] = useState();
   const trialPoints = 6;
+  const premiumMember = false;
+  const [address, setAddress] = useState();
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
 
@@ -21,9 +23,11 @@ const Signup = () => {
       .post("http://localhost:3001/Register", {
         name,
         contact,
+        address,
         email,
         password,
         trialPoints,
+        premiumMember,
       })
       .then((result) => {
         console.log("result", result);
@@ -49,6 +53,14 @@ const Signup = () => {
           placeholder="Name"
           onChange={(e) => setName(e.target.value)}
         />
+        <textarea 
+        name="address" 
+        id="address" 
+        placeholder="Address"
+        onChange={(e) => setAddress(e.target.value)}
+        >
+
+        </textarea>
         <input
           type="text"
           name="contact"
@@ -77,7 +89,7 @@ const Signup = () => {
           type="submit"
           disabled={loading || !name || !contact || !email || !password}
         >
-          {loading ? "Registering..." : "Register"}
+          {loading ? "Registering user  →" : "Register  →"}
         </button>
       </form>
       <div className="right">

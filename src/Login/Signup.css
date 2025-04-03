@@ -25,6 +25,20 @@
     }
 
     input {
+      width: 20vw;
+      padding: 12px;
+      font-size: 20px;
+      margin: 20px;
+      border: 1px solid black;
+      border-radius: 12px;
+      outline: none;
+      background: white;
+      backdrop-filter: blur(20px);
+    }
+
+    textarea {
+      resize: none;
+      width: 20vw;
       padding: 12px;
       font-size: 20px;
       margin: 20px;
@@ -56,12 +70,18 @@
   }
 }
 
-
-
 @media only screen and (max-width: 1000px) {
   .Register {
-      .right {
-          display: none;
+    .right {
+      display: none;
+    }
+
+    .left {
+      width: 70vw;
+      input,
+      textarea {
+        width: 80vw;
       }
+    }
   }
 }

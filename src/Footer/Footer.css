@@ -26,36 +26,39 @@
         font-size: 50px;
         font-weight: 500;
       }
-      h4 {
-        font-size: 15px;
-        font-weight: 100;
-      }
       .inputContainer {
         /* background: orange; */
         display: flex;
-        align-items: center;
-        justify-content: space-between;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        width: max-content;
         margin: 5px;
-        input {
-          width: 80%;
+        background: transparent;
+        textarea {
+          width: 30vw;
+          resize: none;
+          height: 25vh;
           font-size: 14px;
-          padding: 20px;
-          border: 1px solid black;
+          padding: 10px;
           outline: none;
           font-family: sans-serif;
-          border-radius: 40px;
+          border: none;
+          font-size: 15px;
           &:hover {
-            outline: auto;
+            outline: none;
           }
         }
         button {
-          padding: 20px;
-          border: 1px solid black;
-          background: transparent;
-          border-radius: 40px;
+          padding: 15px;
+          background: rgb(248, 234, 213);
+          border: none;
+          font-size: 15px;
           &:hover {
+            background: rgb(251, 203, 118);
             text-decoration: underline;
             cursor: pointer;
+            outline: none;
           }
         }
       }

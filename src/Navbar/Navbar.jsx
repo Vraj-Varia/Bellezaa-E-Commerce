@@ -89,7 +89,7 @@ const Navbar = () => {
             <a href="/support">SUPPORT</a>
           </li>
           <li>
-            <a href="/products">PREMIUM</a>
+            <a href="/premium">PREMIUM</a>
           </li>
         </div>
       ) : (
@@ -126,7 +126,7 @@ const Navbar = () => {
           <a href="/support">SUPPORT</a>
         </li>
         <li>
-          <a href="/products">PREMIUM</a>
+          <a href="/premium">PREMIUM</a>
         </li>
       </div>
       <div className="login">
