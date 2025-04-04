@@ -5,6 +5,7 @@
   /* background: red; */
   height: 100vh;
   overflow: hidden;
+  margin-top: 10vh;
 
   .right {
     img {

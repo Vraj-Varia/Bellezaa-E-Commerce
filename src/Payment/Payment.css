@@ -1,0 +1,83 @@
+.payment {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background: wheat; */
+  background: whitesmoke;
+  width: 60vw;
+  margin: auto;
+  .upi_method {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    background: transparent;
+    padding: 10px;
+    width: 20vw;
+    margin: 40px;
+    img {
+      height: 50vh;
+    }
+    form {
+      display: flex;
+      input {
+        padding: 10px;
+        margin: 10px;
+        font-size: 18px;
+        width: 15vw;
+        border:none;
+        outline: none;
+      }
+      .submit_pay {
+        background: rgb(245, 229, 200);
+        cursor: pointer;
+        margin: auto;
+        margin-top: 10px;
+        width: max-content;
+        &:hover {
+          background: wheat;
+        }
+      }
+    }
+  }
+  .do_pay {
+    background: whitesmoke;
+    height: 50vh;
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .heading {
+      font-size: 30px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      input {
+        padding: 10px;
+        margin: 10px;
+        font-size: 18px;
+        width: 25vw;
+        border:none;
+        outline: none;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+      .submit_pay {
+        background: rgb(245, 229, 200);
+        cursor: pointer;
+        margin: auto;
+        margin-top: 10px;
+        &:hover {
+          background: wheat;
+        }
+      }
+    }
+  }
+}
+
+
+

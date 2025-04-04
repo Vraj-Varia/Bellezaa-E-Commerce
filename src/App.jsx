@@ -13,6 +13,7 @@ import Profile from "./Profile/Profile";
 import Chatbox from "./ChatBox/Chatbox";
 import { useEffect, useState } from "react";
 import Premium from "./Premium/Premium";
+import Payment from "./Payment/Payment";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -52,6 +53,7 @@ function App() {
             <Route path="/Support" element={<Support />}></Route>
             <Route path="/cart" element={<Cart />}></Route>
             <Route path="/premium" element={<Premium />}></Route>
+            <Route path="/payment" element={<Payment />}></Route>
             <Route
               path="/profile"
               element={<Profile username="USER" />}

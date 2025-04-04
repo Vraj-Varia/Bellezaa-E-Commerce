@@ -42,7 +42,7 @@ const Chatbox = () => {
             type="text"
             name="search"
             id="searchFooter"
-            placeholder="Ask Bellezaa..."
+            placeholder="Search here..."
           />
           <button onClick={getMessage}>
             <svg

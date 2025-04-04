@@ -34,7 +34,7 @@ const Premium = () => {
           <p>MONTHLY</p>
           <div className="price">
             <h1>$49</h1>
-            <button>Purchase Now</button>
+            <a href="/payment"><button>Purchase Now</button></a>
           </div>
           <div className="details">
             <h2>Monthly Plan Indicates :</h2>
@@ -47,7 +47,7 @@ const Premium = () => {
           <p>YEARLY</p>
           <div className="price">
             <h1>$299</h1>
-            <button>Purchase Now</button>
+            <a href="/payment"><button>Purchase Now</button></a>
           </div>
           <div className="details">
             <h2>Yearly Plan Indicates :</h2>
