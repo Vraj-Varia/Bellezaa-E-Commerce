@@ -4,6 +4,7 @@ import "./Premium.css";
 const Premium = () => {
   return (
     <>
+    <div className="container_premium">
       <br />
       <br />
       <br />
@@ -57,6 +58,7 @@ const Premium = () => {
           </div>
         </div>
       </div>
+    </div>
     </>
   );
 };

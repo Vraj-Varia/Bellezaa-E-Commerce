@@ -1,7 +1,7 @@
 .Login {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     height: 100vh;
     overflow: hidden;
 
@@ -15,12 +15,14 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        background: whitesmoke;
+        background: rgba(245, 222, 179, 0.482);
+        backdrop-filter: blur(20px);
         padding: 40px;
         border-radius: 12px;
 
         h1 {
             font-size: 40px;
+            margin: 20px;
         }
 
         input {
@@ -29,6 +31,7 @@
             margin: 20px;
             border: 1px solid black;
             border-radius: 12px;
+            width: 30vw;
             outline: none;
             background: white;
             backdrop-filter: blur(20px);
@@ -52,6 +55,10 @@
                 text-decoration: underline;
             }
         }
+    }
+
+    p {
+        font-size: 18px;
     }
 }
 

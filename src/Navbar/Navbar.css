@@ -104,11 +104,13 @@
     margin-right: 90px;
     display: flex;
     .dropItems {
-      position: absolute;
+      position: fixed;
+      top: 0;
+      right: 0;
       ul {
         display: flex;
+        flex-direction: column;
         position: fixed;
-        right: 50px;
         background: rgba(245, 222, 179, 1);
         border-bottom: 1px solid black;
       }

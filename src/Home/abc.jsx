@@ -17,16 +17,18 @@ const ActualHome = () => {
       {/* <br/>
       <br/>
       <br/> */}
-      {/* <Home /> */}
+      <Home />
+      <Products />
       {/* <Products /> */}
       <Services />
+      <Products />
       <Guidance />
       {/* <Products /> */}
-      <Add category="NEW" title="BUY PREMIUM NOW AND GET 20% OFF" msg="Shop the laser-sharp liquid eyeliner that delivers long-lasting, intense color payoff for all your holiday makeup moments." img={image}/>
+      <Add category="NEW" title="BUY PREMIUM NOW AND GET 20% OFF" msg="Shop the laser-sharp liquid eyeliner that delivers long-lasting, intense color payoff for all your holiday makeup moments." img={image} />
       <Products />
       {/* <div className="divider"></div> */}
       {/* <Products /> */}
-      <Add category="HOLIDAY" title="HOLIDAY GIFT'S" msg="Shop the laser-sharp liquid eyeliner that delivers long-lasting, intense color payoff for all your holiday makeup moments." img={holiday}/>
+      <Add category="HOLIDAY" title="HOLIDAY GIFT'S" msg="Shop the laser-sharp liquid eyeliner that delivers long-lasting, intense color payoff for all your holiday makeup moments." img={holiday} />
       <Products />
 
       <div className="cartButton"></div>
