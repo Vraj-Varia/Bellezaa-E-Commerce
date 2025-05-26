@@ -25,6 +25,7 @@ body {
     align-items: center;
     justify-content: center;
     width: 90vw;
+    margin: auto;
 }
 
 .vertical_divider {

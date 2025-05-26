@@ -11,6 +11,7 @@
         margin: 8px;
         display: flex;
         flex-direction: column;
+        color: black;
         /* background: red; */
         padding: 10px;
         border-bottom: 1px solid grey;

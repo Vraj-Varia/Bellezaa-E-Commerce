@@ -27,7 +27,7 @@ const Chatbox = () => {
   return (
     <div className="Chatbox">
       <div className="bottom">
-        COPYRIGHT &copy; 2024 BELLEZAA. ALL RIGHTS RESERVED.
+        <center><p>COPYRIGHT &copy; 2024 BELLEZAA. ALL RIGHTS RESERVED.</p></center>
         {/* <div className="chat">
           <div className="user_input">
             <span>How to get rid of acne?</span>
